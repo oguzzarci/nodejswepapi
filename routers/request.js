@@ -15,6 +15,10 @@ router.get('/getdata',async(req,res)=> {
 // res : gelen isteğe geri gönderidiğimiz cevap.
 router.post('/login',async(req,res)=>{
 
+
+    console.log(req.body)
+
+
     const username = req.body.username;
     const password = req.body.password;
 

@@ -1,0 +1,79 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0",
+      "title": "Teknodice.com Simple NodeJS Api",
+      "description": "NodeJS Api",
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "tags": [
+      {
+        "name": "Teknodice.com NodeJs Api",
+        "description": ""
+      }
+    ],
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "paths": {
+      "/api/getdata": {
+        "get": {
+          "tags": [
+            "Get Data"
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/api/login": {
+        "post": {
+          "tags": [
+            "Login"
+          ],
+          "summary": "",
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "username and password",
+              "in": "body",
+              "required": true,
+              "description": "Username and Password",
+              
+              "properties": {
+                "username": {
+                  "type": "string",
+                  "example":"admin"
+                },
+                "password": {
+                  "type": "string",
+                  "example":"admin"
+                }
+              }
+
+
+            }
+            
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            },
+            "400": {
+              "description": "Failed. Bad post data."
+            }
+          }
+        }
+      }
+    }
+  }

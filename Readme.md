@@ -15,4 +15,12 @@ npm start
 {username:"admin",password:"admin"}
 ```
 # How to Use
-=> [https://teknodice.com/nodejs-ile-web-api-nasil-yapilir-1/](https://teknodice.com/nodejs-ile-web-api-nasil-yapilir-1/ "www.teknodice.com")
+=> [http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/](http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/ "www.teknodice.com")
+
+# Screen Shots
+
+![ScreenShot1](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/1.png)
+
+![ScreenShot2](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/2.png)
+
+![ScreenShot2](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/3.png)

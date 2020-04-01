@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 
+const swaggerui = require('swagger-ui-express');
+swaggerJsonFile = require('./swagger.json');
+app.use('/docui', swaggerui.serve, swaggerui.setup(swaggerJsonFile));
+
 //Import Routes
 const requestRoutes = require('./routers/request');
 

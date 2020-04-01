@@ -17,7 +17,7 @@ npm start
 # How to Use
 => [http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/](http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/ "www.teknodice.com")
 
-# Screen Shots
+# Screen Shots (http://localhost:5000/docui)
 
 ![ScreenShot1](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/1.png)
 

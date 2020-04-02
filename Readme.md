@@ -23,4 +23,4 @@ npm start
 
 ![ScreenShot2](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/2.png)
 
-![ScreenShot2](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/3.png)
+![ScreenShot2](https://raw.githubusercontent.com/oguzzarci/nodejswepapi/master/screenshots/full.png)

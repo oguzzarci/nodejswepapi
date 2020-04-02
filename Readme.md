@@ -15,7 +15,7 @@ npm start
 {username:"admin",password:"admin"}
 ```
 # How to Use
-=> [http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/](http://teknodice.com/nodejs-ile-web-api-nasil-yapilir/ "www.teknodice.com")
+=> [https://teknodice.com/nodejs-ile-web-api-nasil-yapilir/](https://teknodice.com/nodejs-ile-web-api-nasil-yapilir/ "www.teknodice.com")
 
 # SwaggerUI Screen Shots (http://localhost:5000/docui)
 

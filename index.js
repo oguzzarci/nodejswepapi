@@ -5,6 +5,14 @@ const swaggerui = require('swagger-ui-express');
 swaggerJsonFile = require('./swagger.json');
 app.use('/docui', swaggerui.serve, swaggerui.setup(swaggerJsonFile));
 
+//Cors
+const cors = require('cors');
+
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true
+  }));
+
 //Import Routes
 const requestRoutes = require('./routers/request');
 

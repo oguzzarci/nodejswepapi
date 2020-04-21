@@ -9,7 +9,7 @@ app.use('/docui', swaggerui.serve, swaggerui.setup(swaggerJsonFile));
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: '*',
     credentials: true
   }));
 
